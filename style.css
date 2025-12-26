@@ -228,3 +228,70 @@ button:hover{
     grid-row-start: 2;
 }
         
+
+/* Responsive improvements for mobile/tablet */
+.parent button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .first {
+    width: 70%;
+  }
+  .answer {
+    width: 60vw;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  body{
+    padding: 8px;
+  }
+  .first{
+    width: 92%;
+    margin-top: 6%;
+  }
+  .parent{
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(48px, auto);
+    gap: 8px;
+    margin: 0 auto;
+  }
+  .answer{
+    width: calc(100% - 24px);
+    font-size: 24px;
+    padding: 12px;
+    height: auto;
+  }
+  button{
+    font-size: 20px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 420px) {
+  .parent{
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+  }
+  .first{
+    width: 98%;
+  }
+  .answer{
+    font-size: 20px;
+    padding: 10px;
+  }
+  button{
+    font-size: 20px;
+    padding: 10px;
+  }
+}
