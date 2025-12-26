@@ -1,0 +1,230 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+   background-color: rgba(0, 0, 0, 0.404);
+    font-family: Arial, sans-serif;
+}
+button{
+    background-color: rgb(32, 66, 178);
+    font-size: 25px;
+    border-radius: 10px;
+    
+}
+h1{
+    color: white;
+}
+button:hover{
+    background-color: rgb(13, 13, 202);
+}
+#del{
+    background-color: red;
+}
+#del:hover{
+    background-color: darkred;
+}
+#ac{
+    background-color: red;
+}
+#ac:hover{
+    background-color: darkred;
+}
+#eq{
+    background-color: green;
+}
+#eq:hover{
+    background-color: darkgreen;
+}
+#symbol{
+    background-color:rgb(187, 151, 98);
+}
+#symbol:hover{
+    background-color: rgb(161, 112, 65);
+}
+.parent {
+    display: grid;
+    
+    margin-top: 5px;
+    width: 90%;
+    height: 60vh;
+    align-items: stretch;
+   justify-content: stretch;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black ;
+    background-color: rgba(0, 0, 0, 0.89);
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.answer{
+   
+   border: 2px solid black  ;
+    background-color: rgb(184, 179, 179);
+    text-align:right;
+    font-size: 20px;
+    padding: 10px;
+   justify-content: center;
+   width: 30vw;
+   height: 3vh;
+   margin-bottom: 10px;
+}
+    
+
+.div1 {
+    display: flex;
+    align-items: center;
+      justify-content: center;
+   
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.div2{
+    display: flex;
+    align-items: center;
+      justify-content: center;
+
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.div3 {
+    display: flex;
+    align-items: center;
+      justify-content: center;
+    
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.div6 {
+    display: flex;
+    align-items: center;
+      justify-content: center;
+   
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.div7 {
+      display: flex;
+    align-items: center;
+      justify-content: center;
+    
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.div8 {
+      display: flex;
+    align-items: center;
+      justify-content: center;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.div9 {
+      display: flex;
+    align-items: center;
+      justify-content: center;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.div10 {
+      display: flex;
+    align-items: center;
+      justify-content: center;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.div11 {
+      display: flex;
+    align-items: center;
+      justify-content: center;
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.div13 {
+      display: flex;
+    align-items: center;
+      justify-content: center;
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+
+.div15 {
+      display: flex;
+    align-items: center;
+      justify-content: center;
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+.div19 {
+      display: flex;
+    align-items: center;
+      justify-content: center;
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+
+.div20 {
+      display: flex;
+    align-items: center;
+      justify-content: center;
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+.div21 {
+      display: flex;
+    align-items: center;
+      justify-content: center;
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.div22 {
+      display: flex;
+    align-items: center;
+      justify-content: center;
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+
+.div23 {
+      display: flex;
+    align-items: center;
+      justify-content: center;
+    grid-column-start: 4;
+    grid-row-start: 4;
+}
+
+.div26 {
+      display: flex;
+    align-items: center;
+      justify-content: center;
+    grid-column-start: 5;
+    grid-row-start: 1;
+}
+
+.div27 {
+  display: flex;
+    align-items: center;
+      justify-content: center;
+    grid-column-start: 5;
+    grid-row-start: 2;
+}
+        
